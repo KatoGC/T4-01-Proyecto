@@ -34,20 +34,32 @@ Asegúrate de tener instalado Node.js, Xampp y Postman.
    cd T4-01-Proyecto.git
    ```
 
-3. Ejecutar el siguiente comando para iniciar los contenedores:
+3. Ejecutar el siguiente comando para intalar strapi:
+
+    ```sh
+    npm install strapi@latest
+    ```
+    
+4. Ejecutar el siguiente comando para hacer la construccion:
+
+    ```sh
+    npm run build
+    ```
+    
+5. Ejecutar el siguiente comando para iniciar los contenedores:
 
     ```sh
     npm run develop
     ```
-
+    
     > **IMPORTANTE**
     >
     > 
     >Debe tener inicalizado los servicios de Apache y MySQL en Xampp
 
-4. La API estará disponible en `http://localhost:1337`.
+6. La API estará disponible en `http://localhost:1337`.
 
-5. El panel de adminstración estará disponible en `http://localhost:1337/admin`
+7. El panel de adminstración estará disponible en `http://localhost:1337/admin`
 
 ## Documentación detallada
 
