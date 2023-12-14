@@ -7,7 +7,7 @@ Permite obtener información detallada sobre un usuario específico mediante su 
 
 ## Ejemplo de Solicitud
 ```http
-GET /usuario/1
+GET api/usuario/1
 ```
 
 ## Respuesta Exitosa (Código 200 OK)
@@ -27,16 +27,16 @@ GET /usuario/1
 ## Respuestas de Errores Posibles
 - Código 404 Not Found:
 
-  ```json
-  {
-    "error": {
-        "status": 404,
-        "name": "NotFoundError",
-        "message": "Not Found",
-        "details": {}
-    }
+```json
+{
+  "error": {
+      "status": 404,
+      "name": "NotFoundError",
+      "message": "Not Found",
+      "details": {}
   }
-  ```
+}
+```
 
 ## Notas Adicionales
 
